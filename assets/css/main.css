@@ -1,0 +1,30 @@
+@import 'font.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        letter-spacing: 0;
+        font-size: 16px;
+        font-family: Vazirmatn, serif;
+        font-weight: 400;
+        word-wrap: break-word;
+        direction: rtl;
+        @apply text-gray-900;
+    }
+
+    h1 {
+        @apply text-gray-900 text-[24px] font-black;
+    }
+
+    h2 {
+        @apply text-gray-900 text-[20.8px] font-bold;
+    }
+}
+
+.base-shadow {
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .03);
+}
+
